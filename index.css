@@ -1,0 +1,125 @@
+body{
+    background-image: url(fond.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    color: white;
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(blue, lightblue);
+    height: 30px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 20px;
+}
+nav a{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+li a{
+    color: aqua;
+    text-decoration: underline;
+}
+
+li a:hover{
+    color: rgb(0, 119, 255);
+}
+nav a:hover{
+    background: linear-gradient(blue, lightblue);
+    color: aqua;
+    text-decoration: underline;
+}
+
+.escalier p{
+    margin: 20px;
+}
+.escalier{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span{
+    margin: 4px;
+}
+
+#home .particles-js-canvas-el{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+}
+
+.me{
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.container {columns:2;}
+
+:root {
+  --jav: #e17055;
+  --pyt: green;
+  --htcs: #00b894;
+  --sql: blue;
+}
+
+.progressbar-wrapper {
+  background-color: #dfe6e9;
+  color: white;
+  border-radius: 15px;
+  width: 70%;
+}
+
+.progressbar {
+  background-color: var(--progress);
+  color: white;
+  padding: 1rem;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.progressbar[title="ja"] {
+   background-color: var(--jav);
+}
+
+.progressbar[title="py"] {
+   background-color: var(--pyt);
+}
+
+.progressbar[title="htc"] {
+   background-color: var(--htcs);
+}
+
+.progressbar[title="sq"] {
+   background-color: var(--sql);
+}
+  
+.j {
+  width: 80%;
+}
+
+.p {
+  width: 75%;
+}
+
+.hc {
+  width: 65%;
+}
+
+.s {
+  width: 50%;
+}
