@@ -66,10 +66,15 @@ span{
   margin-left: 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.col{
+  float: left;
 }
 .container {columns:2;}
 
-:root {
+/*:root {
   --jav: #e17055;
   --pyt: green;
   --htcs: #00b894;
@@ -106,7 +111,7 @@ span{
 
 .progressbar[title="sq"] {
    background-color: var(--sql);
-}
+}*/
   
 .j {
   width: 80%;
