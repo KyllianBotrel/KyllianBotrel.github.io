@@ -4,7 +4,7 @@
 particlesJS('home', {
     "particles": {
       "number": {
-        "value": 100, // Nombre de particules
+        "value": 140, // Nombre de particules
         "density": {
           "enable": true,
           "value_area": 500 // Zone où les particules seront présentes
